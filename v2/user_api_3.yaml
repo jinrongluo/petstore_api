@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: Sample API
-  description: test from 4 commit Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
+  description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
   version: 0.1.9
 servers:
   - url: http://api.example.com/v1
@@ -21,4 +21,4 @@ paths:
               schema: 
                 type: array
                 items: 
-	          type: string
+                  type: string
